@@ -1,0 +1,16 @@
+name: eclint check
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: snow-actions/eclint@feature/eclint
+      with:
+        command: 'check'
+        files: '*.js'
