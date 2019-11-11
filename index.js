@@ -3,9 +3,8 @@ const eclint = require('./eclint');
 
 async function run() {
   try {
-    const command = core.getInput('command');
-    const files = core.getInput('files');
-    await eclint(command, files);
+    const args = core.getInput('args');
+    await eclint(args);
   }
   catch (error) {
     core.setFailed(error.message);

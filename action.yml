@@ -1,13 +1,10 @@
 name: 'ECLint'
 description: 'Execute ECLint on GitHub Actions'
 inputs:
-  command:
-    description: 'command'
+  args:
+    description: 'arguments'
     required: true
     default: 'check'
-  files:
-    description: 'files path'
-    default: ''
 runs:
   using: 'node12'
   main: 'index.js'
