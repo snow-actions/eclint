@@ -1,28 +1,29 @@
 {
-  "name": "javascript-action",
+  "name": "eclint-action",
   "version": "1.0.0",
-  "description": "JavaScript Action Template",
+  "description": "Execute ECLint on GitHub Actions",
   "main": "index.js",
   "scripts": {
     "lint": "eslint index.js",
-    "package": "ncc build index.js -o dist",
-    "test": "eslint index.js && jest"
+    "test": "eslint index.js && jest",
+    "eclint": "eclint"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/javascript-action.git"
+    "url": "git+https://github.com/snow-actions/eclint.git"
   },
   "keywords": [
     "GitHub",
     "Actions",
-    "JavaScript"
+    "JavaScript",
+    "ECLint"
   ],
-  "author": "GitHub",
+  "author": "SnowCait",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/actions/javascript-action/issues"
+    "url": "https://github.com/snow-actions/eclint/issues"
   },
-  "homepage": "https://github.com/actions/javascript-action#readme",
+  "homepage": "https://github.com/snow-actions/eclint#readme",
   "dependencies": {
     "@actions/core": "^1.1.1",
     "@actions/exec": "^1.0.1",
