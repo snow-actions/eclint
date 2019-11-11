@@ -29,7 +29,6 @@
     "eclint": "^2.8.1"
   },
   "devDependencies": {
-    "@zeit/ncc": "^0.20.5",
     "eslint": "^6.3.0",
     "jest": "^24.9.0"
   }
