@@ -1,7 +1,7 @@
 {
   "name": "eclint-action",
   "version": "1.0.0",
-  "description": "Execute ECLint on GitHub Actions",
+  "description": "Validate or fix code based on EditorConfig by using ECLint.",
   "main": "index.js",
   "scripts": {
     "lint": "eslint index.js",
