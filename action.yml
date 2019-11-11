@@ -1,13 +1,13 @@
-name: 'Wait'
-description: 'Wait a designated number of milliseconds'
+name: 'ECLint'
+description: 'Execute ECLint on GitHub Actions'
 inputs:
-  milliseconds:  # id of input
-    description: 'number of milliseconds to wait'
+  command:
+    description: 'command'
     required: true
-    default: '1000'
-outputs:
-  time: # output will be available to future steps 
-    description: 'The message to output'
+    default: 'check'
+  files:
+    description: 'files path'
+    default: ''
 runs:
   using: 'node12'
   main: 'dist/index.js'
