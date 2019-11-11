@@ -1,4 +1,4 @@
-name: "test-local"
+name: "ECLint-action"
 on:
   pull_request:
   push:
