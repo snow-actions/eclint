@@ -5,8 +5,8 @@
 
 # ECLint action
 
-Execute [ECLint](https://github.com/jedmao/eclint) on GitHub Actions.
-ECLint validates or fixes code based on EditorConfig.
+Execute [ECLint](https://github.com/jedmao/eclint) on GitHub Actions.  
+ECLint validates or fixes code based on [EditorConfig](https://editorconfig.org/).
 
 ## Usage
 
