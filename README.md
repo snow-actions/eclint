@@ -1,6 +1,6 @@
 
 <p align="center">
-  <a href="https://github.com/snow-actions/eclint"><img alt="GitHub Actions status" src="https://github.com/snow-actions/eclint/workflows/test-local/badge.svg"></a>
+  <a href="https://github.com/snow-actions/eclint"><img alt="GitHub Actions status" src="https://github.com/snow-actions/eclint/workflows/ECLint-action/badge.svg"></a>
 </p>
 
 # ECLint action
