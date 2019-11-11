@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - master
-      - 'releases/*'
 
 jobs:
   test:
@@ -16,4 +15,4 @@ jobs:
     - run: npm test
     - uses: ./
       with:
-        milliseconds: 1000
+        args: 'check *.js'
