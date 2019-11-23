@@ -14,6 +14,8 @@ See [action.yml](action.yml)
 
 ### Validate
 
+Execute `eclint check`.
+
 ```yml
 - uses: snow-actions/eclint@v1.0.1
   with:
@@ -29,7 +31,3 @@ Execute `eclint fix *.yml`. Make commit yourself.
   with:
     args: 'fix *.yml'
 ```
-
-## Example
-
-See [actions tab](https://github.com/snow-actions/javascript-action/actions)
