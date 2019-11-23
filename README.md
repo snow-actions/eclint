@@ -15,7 +15,7 @@ See [action.yml](action.yml)
 ### Validate
 
 ```yml
-- uses: snow-actions/eclint@v1.0.0
+- uses: snow-actions/eclint@v1.0.1
   with:
     args: 'check'
 ```
@@ -25,7 +25,7 @@ See [action.yml](action.yml)
 Execute `eclint fix *.yml`. Make commit yourself.
 
 ```yml
-- uses: snow-actions/eclint@v1.0.0
+- uses: snow-actions/eclint@v1.0.1
   with:
     args: 'fix *.yml'
 ```
