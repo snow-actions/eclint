@@ -1,5 +1,5 @@
 name: 'ECLint'
-description: 'Execute ECLint on GitHub Actions'
+description: 'Validate or fix code based on EditorConfig by using ECLint.'
 inputs:
   args:
     description: 'arguments'
