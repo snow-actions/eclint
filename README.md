@@ -12,13 +12,15 @@ ECLint validates or fixes code based on [EditorConfig](https://editorconfig.org/
 
 See [action.yml](action.yml)
 
-### No args executes `eclint check`
+### Validate
 
 ```yml
 - uses: snow-actions/eclint@v1.0.0
+  with:
+    args: 'check'
 ```
 
-### Auto fix
+### Fix
 
 Execute `eclint fix *.yml`. Make commit yourself.
 
