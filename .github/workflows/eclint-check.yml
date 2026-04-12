@@ -9,7 +9,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-    - uses: snow-actions/eclint@v1.0.1
-      with:
-        args: 'check *.js'
+      - uses: actions/checkout@v6
+      - uses: snow-actions/eclint@v1.0.1
+        with:
+          args: 'check *.js'
