@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> [ECLint](https://github.com/jedmao/eclint) is now deprecated and will not receive security updates. Please stop using it and this action.  
+> If you still wish to use it, please use `npx eclint` directly.
 
 <p align="center">
   <a href="https://github.com/snow-actions/eclint"><img alt="GitHub Actions status" src="https://github.com/snow-actions/eclint/workflows/ECLint-action/badge.svg"></a>

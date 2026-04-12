@@ -1,4 +1,4 @@
-name: "ECLint-action"
+name: 'ECLint-action'
 on:
   pull_request:
   push:
@@ -12,11 +12,11 @@ jobs:
       matrix:
         os: [ubuntu-latest, ubuntu-16.04, macos-latest, windows-latest]
     steps:
-    - run: git config --global core.autocrlf false
-    - uses: actions/checkout@v1
+      - run: git config --global core.autocrlf false
+      - uses: actions/checkout@v6
 
-    - run: npm ci
-    - run: npm test
-    - uses: ./
-      with:
-        args: 'check *.js'
+      - run: npm ci
+      - run: npm test
+      - uses: ./
+        with:
+          args: 'check *.js'
